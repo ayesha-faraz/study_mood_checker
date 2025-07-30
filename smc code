@@ -1,0 +1,8 @@
+do_i_like_the_subject = True
+do_i_have_pressure_on_me = True
+am_i_motivated = True
+
+final_study_readiness = do_i_like_the_subject and (am_i_motivated or do_i_have_pressure_on_me)
+
+print("I am NOT motivated:", not am_i_motivated)
+print("Final study readiness:", final_study_readiness)
